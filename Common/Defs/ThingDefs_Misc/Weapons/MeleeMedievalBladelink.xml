@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+    <ThingDef Name="BaseWeapon_Bladelink_MedTechLevelTag" ParentName="BaseWeapon_Bladelink" Abstract="True">
+        <techLevel>Medieval</techLevel>
+        <weaponClasses>
+            <li>Melee</li>
+        </weaponClasses>
+        <weaponTags>
+            <li>Bladelink</li>
+        </weaponTags>
+        <stuffCategories>
+            <li>Metallic</li>
+            <li>Woody</li>
+        </stuffCategories>
+        <relicChance>2</relicChance>
+    </ThingDef>
+    <ThingDef ParentName="BaseWeapon_Bladelink_MedTechLevelTag">
+        <defName>MPW_Bladelink_Mace</defName>
+        <label>persona mace</label>
+        <description>A refined club, engineered for efficient swinging and deadly impacts.\nThis weapon has an onboard persona that can bond to only a single person. The wielder and intelligent weapon can synchronize their reflexes and attack with frightening speed, accuracy, and creativity. Once bonded to a wielder, the weapon's persona will refuse to be wielded by anyone else.</description>
+        <graphicData>
+            <texPath>Things/Item/Equipment/WeaponMelee/Mace</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <uiIconScale>1.2</uiIconScale>
+        <statBases>
+            <Mass>1.25</Mass>
+        </statBases>
+        <equippedAngleOffset>-65</equippedAngleOffset>
+        <weaponTags>
+            <li>MedievalMeleeDecent</li>
+        </weaponTags>
+        <tools>
+            <li>
+                <label>handle</label>
+                <capacities>
+                    <li>Poke</li>
+                </capacities>
+                <power>9</power>
+                <cooldownTime>2</cooldownTime>
+            </li>
+            <li>
+                <label>head</label>
+                <labelUsedInLogging>false</labelUsedInLogging>
+                <capacities>
+                    <li>Blunt</li>
+                </capacities>
+                <power>19</power>
+                <cooldownTime>1.6</cooldownTime>
+            </li>
+        </tools>
+    </ThingDef>
+    
+    <ThingDef ParentName="BaseWeapon_Bladelink_MedTechLevelTag">
+    <defName>MPW_Bladelink_Gladius</defName>
+    <label>persona gladius</label>
+    <description>A short sword of ancient design. Good for stabbing or slashing. It's light and nimble, which sometimes lets it beat bigger, heavier weapons.\nThis weapon has an onboard persona that can bond to only a single person. The wielder and intelligent weapon can synchronize their reflexes and attack with frightening speed, accuracy, and creativity. Once bonded to a wielder, the weapon's persona will refuse to be wielded by anyone else.</description>
+    <graphicData>
+        <texPath>Things/Item/Equipment/WeaponMelee/Gladius</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <uiIconScale>1.2</uiIconScale>
+    <weaponTags>
+        <li>MedievalMeleeDecent</li>
+    </weaponTags>
+    <statBases>
+        <Mass>0.85</Mass>
+    </statBases>
+    <equippedAngleOffset>-65</equippedAngleOffset>
+    <tools>
+        <li>
+            <label>handle</label>
+            <capacities>
+                <li>Blunt</li>
+            </capacities>
+            <power>9</power>
+            <cooldownTime>2</cooldownTime>
+        </li>
+        <li>
+            <label>point</label>
+            <capacities>
+                <li>Stab</li>
+            </capacities>
+            <power>19</power>
+            <cooldownTime>1.6</cooldownTime>
+        </li>
+        <li>
+            <label>edge</label>
+            <capacities>
+                <li>Cut</li>
+            </capacities>
+            <power>19</power>
+            <cooldownTime>1.6</cooldownTime>
+        </li>
+    </tools>
+</ThingDef>
+
+    <ThingDef ParentName="BaseWeapon_Bladelink_MedTechLevelTag">
+        <defName>MPW_Bladelink_LongSword</defName>
+        <label>persona longsword</label>
+        <description>The ancient weapon of kings, the longsword can be used for slashing or stabbing.\nThis weapon has an onboard persona that can bond to only a single person. The wielder and intelligent weapon can synchronize their reflexes and attack with frightening speed, accuracy, and creativity. Once bonded to a wielder, the weapon's persona will refuse to be wielded by anyone else.</description>
+        <graphicData>
+            <texPath>Things/Item/Equipment/WeaponMelee/LongSword</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <weaponTags>
+            <li>MedievalMeleeAdvanced</li>
+            <li>LongSword</li>
+        </weaponTags>
+        <thingSetMakerTags><li>RewardStandardQualitySuper</li></thingSetMakerTags>
+        <statBases>
+            <Mass>2</Mass>
+        </statBases>
+        <equippedAngleOffset>-65</equippedAngleOffset>
+        <tools>
+            <li>
+                <label>handle</label>
+                <capacities>
+                    <li>Blunt</li>
+                </capacities>
+                <power>9</power>
+                <cooldownTime>2</cooldownTime>
+            </li>
+            <li>
+                <label>point</label>
+                <capacities>
+                    <li>Stab</li>
+                </capacities>
+                <power>26</power>
+                <cooldownTime>2</cooldownTime>
+            </li>
+            <li>
+                <label>edge</label>
+                <capacities>
+                    <li>Cut</li>
+                </capacities>
+                <power>26</power>
+                <cooldownTime>2</cooldownTime>
+            </li>
+        </tools>
+    </ThingDef>
+</Defs>
