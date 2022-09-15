@@ -10,7 +10,6 @@
         </weaponTags>
         <stuffCategories>
             <li>Metallic</li>
-            <li>Woody</li>
         </stuffCategories>
         <relicChance>2</relicChance>
     </ThingDef>
@@ -30,6 +29,7 @@
         <weaponTags>
             <li>MedievalMeleeDecent</li>
         </weaponTags>
+        <thingSetMakerTags><li>RewardStandardQualitySuper</li></thingSetMakerTags>
         <tools>
             <li>
                 <label>handle</label>
@@ -139,4 +139,97 @@
             </li>
         </tools>
     </ThingDef>
+
+    <ThingDef ParentName="BaseWeapon_Bladelink_MedTechLevelTag">
+        <defName>MPW_Bladelink_Knife</defName>
+        <label>persona knife</label>
+        <description>One of mankind's oldest manufactured objects. The knife has taken many forms, but the concept has always remained the same: A handle for holding and a sharp edge for cutting.\nThis weapon has an onboard persona that can bond to only a single person. The wielder and intelligent weapon can synchronize their reflexes and attack with frightening speed, accuracy, and creativity. Once bonded to a wielder, the weapon's persona will refuse to be wielded by anyone else.</description>
+        <graphicData>
+            <texPath>Things/Item/Equipment/WeaponMelee/Knife</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <uiIconScale>1.6</uiIconScale>
+        <weaponTags>
+            <li>MedievalMeleeBasic</li>
+            <li>NeolithicMeleeBasic</li>
+        </weaponTags>
+        <statBases>
+            <Mass>0.5</Mass>
+        </statBases>
+        <equippedAngleOffset>-65</equippedAngleOffset>
+        <tools>
+            <li>
+                <label>handle</label>
+                <capacities>
+                    <li>Blunt</li>
+                </capacities>
+                <power>9</power>
+                <cooldownTime>2</cooldownTime>
+            </li>
+            <li>
+                <label>blade</label>
+                <capacities>
+                    <li>Cut</li>
+                </capacities>
+                <power>15</power>
+                <cooldownTime>1</cooldownTime>
+            </li>
+            <li>
+                <label>point</label>
+                <capacities>
+                    <li>Stab</li>
+                </capacities>
+                <power>16</power>
+                <cooldownTime>1.6</cooldownTime>
+            </li>
+        </tools>
+    </ThingDef>
+
+    <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
+        <defName>MPW_Bladelink_Spear</defName>
+        <label>persona spear</label>
+        <description>A polearm tipped with a sharp point for stabbing opponents.\nThis weapon has an onboard persona that can bond to only a single person. The wielder and intelligent weapon can synchronize their reflexes and attack with frightening speed, accuracy, and creativity. Once bonded to a wielder, the weapon's persona will refuse to be wielded by anyone else.</description>
+        <graphicData>
+            <texPath>Things/Item/Equipment/WeaponMelee/Spear</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <weaponTags>
+            <li>NeolithicMeleeAdvanced</li>
+            <li>MedievalMeleeAdvanced</li>
+            <li>Spear</li>
+        </weaponTags>
+        <thingSetMakerTags><li>RewardStandardQualitySuper</li></thingSetMakerTags>
+        <statBases>
+            <Mass>2</Mass>
+        </statBases>
+        <equippedAngleOffset>-25</equippedAngleOffset>
+        <tools>
+            <li>
+                <label>shaft</label>
+                <capacities>
+                    <li>Blunt</li>
+                    <li>Poke</li>
+                </capacities>
+                <power>16</power>
+                <cooldownTime>2</cooldownTime>
+            </li>
+            <li>
+                <label>point</label>
+                <capacities>
+                    <li>Stab</li>
+                </capacities>
+                <power>28</power>
+                <armorPenetration>0.7</armorPenetration>
+                <cooldownTime>2</cooldownTime>
+            </li>
+        </tools>
+    </ThingDef>
+    
+<!--    TODO: persona beer bottle-->
+<!--    TODO: persona log-->
+    
+<!--    may require royalty-->
+<!--    TODO: persona eltex staff-->
+<!--    TODO: axe-->
+<!--    TODO: warhammer-->
 </Defs>
