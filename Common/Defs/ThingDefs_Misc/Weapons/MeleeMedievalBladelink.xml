@@ -1,19 +1,18 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-    <ThingDef Name="BaseWeapon_Bladelink_MedTechLevelTag" ParentName="BaseWeapon_Bladelink" Abstract="True">
+    <ThingDef Name="MPW_Bladelink_Base" ParentName="BaseWeapon_Bladelink" Abstract="True">
         <techLevel>Medieval</techLevel>
-        <weaponClasses>
+        <weaponClasses Inherit="False">
             <li>Melee</li>
         </weaponClasses>
-        <weaponTags>
-            <li>Bladelink</li>
-        </weaponTags>
-        <stuffCategories>
-            <li>Metallic</li>
-        </stuffCategories>
-        <relicChance>2</relicChance>
+        <thingSetMakerTags><li>RewardStandardQualitySuper</li></thingSetMakerTags>
+        <statBases>
+            <MarketValue>800</MarketValue>
+            <Mass>1.25</Mass>
+        </statBases>
     </ThingDef>
-    <ThingDef ParentName="BaseWeapon_Bladelink_MedTechLevelTag">
+    
+    <ThingDef ParentName="MPW_Bladelink_Base">
         <defName>MPW_Bladelink_Mace</defName>
         <label>persona mace</label>
         <description>A refined club, engineered for efficient swinging and deadly impacts.\nThis weapon has an onboard persona that can bond to only a single person. The wielder and intelligent weapon can synchronize their reflexes and attack with frightening speed, accuracy, and creativity. Once bonded to a wielder, the weapon's persona will refuse to be wielded by anyone else.</description>
@@ -22,14 +21,15 @@
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <uiIconScale>1.2</uiIconScale>
-        <statBases>
-            <Mass>1.25</Mass>
-        </statBases>
         <equippedAngleOffset>-65</equippedAngleOffset>
+        <techLevel>Medieval</techLevel>
+        <stuffCategories>
+            <li>Metallic</li>
+        </stuffCategories>
         <weaponTags>
+            <li>MeleeBlunt</li>
             <li>MedievalMeleeDecent</li>
         </weaponTags>
-        <thingSetMakerTags><li>RewardStandardQualitySuper</li></thingSetMakerTags>
         <tools>
             <li>
                 <label>handle</label>
@@ -45,73 +45,30 @@
                 <capacities>
                     <li>Blunt</li>
                 </capacities>
-                <power>19</power>
+                <power>17</power>
                 <cooldownTime>1.6</cooldownTime>
             </li>
         </tools>
     </ThingDef>
     
-    <ThingDef ParentName="BaseWeapon_Bladelink_MedTechLevelTag">
-    <defName>MPW_Bladelink_Gladius</defName>
-    <label>persona gladius</label>
-    <description>A short sword of ancient design. Good for stabbing or slashing. It's light and nimble, which sometimes lets it beat bigger, heavier weapons.\nThis weapon has an onboard persona that can bond to only a single person. The wielder and intelligent weapon can synchronize their reflexes and attack with frightening speed, accuracy, and creativity. Once bonded to a wielder, the weapon's persona will refuse to be wielded by anyone else.</description>
-    <graphicData>
-        <texPath>Things/Item/Equipment/WeaponMelee/Gladius</texPath>
-        <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
-    <uiIconScale>1.2</uiIconScale>
-    <weaponTags>
-        <li>MedievalMeleeDecent</li>
-    </weaponTags>
-    <statBases>
-        <Mass>0.85</Mass>
-    </statBases>
-    <equippedAngleOffset>-65</equippedAngleOffset>
-    <tools>
-        <li>
-            <label>handle</label>
-            <capacities>
-                <li>Blunt</li>
-            </capacities>
-            <power>9</power>
-            <cooldownTime>2</cooldownTime>
-        </li>
-        <li>
-            <label>point</label>
-            <capacities>
-                <li>Stab</li>
-            </capacities>
-            <power>19</power>
-            <cooldownTime>1.6</cooldownTime>
-        </li>
-        <li>
-            <label>edge</label>
-            <capacities>
-                <li>Cut</li>
-            </capacities>
-            <power>19</power>
-            <cooldownTime>1.6</cooldownTime>
-        </li>
-    </tools>
-</ThingDef>
-
-    <ThingDef ParentName="BaseWeapon_Bladelink_MedTechLevelTag">
-        <defName>MPW_Bladelink_LongSword</defName>
-        <label>persona longsword</label>
-        <description>The ancient weapon of kings, the longsword can be used for slashing or stabbing.\nThis weapon has an onboard persona that can bond to only a single person. The wielder and intelligent weapon can synchronize their reflexes and attack with frightening speed, accuracy, and creativity. Once bonded to a wielder, the weapon's persona will refuse to be wielded by anyone else.</description>
+    <ThingDef ParentName="MPW_Bladelink_Base">
+        <defName>MPW_Bladelink_Gladius</defName>
+        <label>persona gladius</label>
+        <description>A short sword of ancient design. Good for stabbing or slashing. It's light and nimble, which sometimes lets it beat bigger, heavier weapons.\nThis weapon has an onboard persona that can bond to only a single person. The wielder and intelligent weapon can synchronize their reflexes and attack with frightening speed, accuracy, and creativity. Once bonded to a wielder, the weapon's persona will refuse to be wielded by anyone else.</description>
         <graphicData>
-            <texPath>Things/Item/Equipment/WeaponMelee/LongSword</texPath>
+            <texPath>Things/Item/Equipment/WeaponMelee/Gladius</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
-        <weaponTags>
-            <li>MedievalMeleeAdvanced</li>
-            <li>LongSword</li>
-        </weaponTags>
-        <thingSetMakerTags><li>RewardStandardQualitySuper</li></thingSetMakerTags>
-        <statBases>
-            <Mass>2</Mass>
-        </statBases>
+        <uiIconScale>1.2</uiIconScale>
         <equippedAngleOffset>-65</equippedAngleOffset>
+        <techLevel>Medieval</techLevel>
+        <stuffCategories>
+            <li>Metallic</li>
+        </stuffCategories>
+        <weaponTags>
+            <li>MeleePiercer</li>
+            <li>MedievalMeleeDecent</li>
+        </weaponTags>
         <tools>
             <li>
                 <label>handle</label>
@@ -126,21 +83,67 @@
                 <capacities>
                     <li>Stab</li>
                 </capacities>
-                <power>26</power>
-                <cooldownTime>2</cooldownTime>
+                <power>18</power>
+                <cooldownTime>1.6</cooldownTime>
             </li>
             <li>
                 <label>edge</label>
                 <capacities>
                     <li>Cut</li>
                 </capacities>
-                <power>26</power>
-                <cooldownTime>2</cooldownTime>
+                <power>18</power>
+                <cooldownTime>1.6</cooldownTime>
             </li>
         </tools>
     </ThingDef>
 
-    <ThingDef ParentName="BaseWeapon_Bladelink_MedTechLevelTag">
+    <ThingDef ParentName="MPW_Bladelink_Base">
+        <defName>MPW_Bladelink_LongSword</defName>
+        <label>persona longsword</label>
+        <description>The ancient weapon of kings, the longsword can be used for slashing or stabbing.\nThis weapon has an onboard persona that can bond to only a single person. The wielder and intelligent weapon can synchronize their reflexes and attack with frightening speed, accuracy, and creativity. Once bonded to a wielder, the weapon's persona will refuse to be wielded by anyone else.</description>
+        <graphicData>
+            <texPath>Things/Item/Equipment/WeaponMelee/LongSword</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <equippedAngleOffset>-65</equippedAngleOffset>
+        <techLevel>Medieval</techLevel>
+        <stuffCategories>
+            <li>Metallic</li>
+        </stuffCategories>
+        <weaponTags>
+            <li>MeleePiercer</li>
+            <li>MedievalMeleeAdvanced</li>
+            <li>LongSword</li>
+        </weaponTags>
+        <tools>
+            <li>
+                <label>handle</label>
+                <capacities>
+                    <li>Blunt</li>
+                </capacities>
+                <power>9</power>
+                <cooldownTime>2</cooldownTime>
+            </li>
+            <li>
+                <label>point</label>
+                <capacities>
+                    <li>Stab</li>
+                </capacities>
+                <power>25</power>
+                <cooldownTime>2.2</cooldownTime>
+            </li>
+            <li>
+                <label>edge</label>
+                <capacities>
+                    <li>Cut</li>
+                </capacities>
+                <power>25</power>
+                <cooldownTime>2.2</cooldownTime>
+            </li>
+        </tools>
+    </ThingDef>
+
+    <ThingDef ParentName="MPW_Bladelink_Base">
         <defName>MPW_Bladelink_Knife</defName>
         <label>persona knife</label>
         <description>One of mankind's oldest manufactured objects. The knife has taken many forms, but the concept has always remained the same: A handle for holding and a sharp edge for cutting.\nThis weapon has an onboard persona that can bond to only a single person. The wielder and intelligent weapon can synchronize their reflexes and attack with frightening speed, accuracy, and creativity. Once bonded to a wielder, the weapon's persona will refuse to be wielded by anyone else.</description>
@@ -149,14 +152,18 @@
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <uiIconScale>1.6</uiIconScale>
+        <equippedAngleOffset>-65</equippedAngleOffset>
         <weaponTags>
+            <li>MeleePiercer</li>
             <li>MedievalMeleeBasic</li>
             <li>NeolithicMeleeBasic</li>
         </weaponTags>
-        <statBases>
-            <Mass>0.5</Mass>
-        </statBases>
-        <equippedAngleOffset>-65</equippedAngleOffset>
+        <stuffCategories>
+            <li>Metallic</li>
+        </stuffCategories>
+        <weaponClasses>
+            <li>Neolithic</li>
+        </weaponClasses>
         <tools>
             <li>
                 <label>handle</label>
@@ -171,13 +178,163 @@
                 <capacities>
                     <li>Cut</li>
                 </capacities>
-                <power>15</power>
-                <cooldownTime>1</cooldownTime>
+                <power>14</power>
+                <cooldownTime>1.3</cooldownTime>
             </li>
             <li>
                 <label>point</label>
                 <capacities>
                     <li>Stab</li>
+                </capacities>
+                <power>15</power>
+                <cooldownTime>1.6</cooldownTime>
+            </li>
+        </tools>
+    </ThingDef>
+
+    <ThingDef ParentName="MPW_Bladelink_Base">
+        <defName>MPW_Bladelink_Spear</defName>
+        <label>persona spear</label>
+        <description>A polearm tipped with a sharp point for stabbing opponents.\nThis weapon has an onboard persona that can bond to only a single person. The wielder and intelligent weapon can synchronize their reflexes and attack with frightening speed, accuracy, and creativity. Once bonded to a wielder, the weapon's persona will refuse to be wielded by anyone else.</description>
+        <graphicData>
+            <texPath>Things/Item/Equipment/WeaponMelee/Spear</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <equippedAngleOffset>-25</equippedAngleOffset>
+        <weaponTags>
+            <li>MeleePiercer</li>
+            <li>NeolithicMeleeAdvanced</li>
+            <li>MedievalMeleeAdvanced</li>
+            <li>Spear</li>
+        </weaponTags>
+        <stuffCategories>
+            <li>Metallic</li>
+        </stuffCategories>
+        <weaponClasses>
+            <li>Neolithic</li>
+        </weaponClasses>
+        <tools>
+            <li>
+                <label>shaft</label>
+                <capacities>
+                    <li>Blunt</li>
+                    <li>Poke</li>
+                </capacities>
+                <power>15</power>
+                <cooldownTime>2.4</cooldownTime>
+            </li>
+            <li>
+                <label>point</label>
+                <capacities>
+                    <li>Stab</li>
+                </capacities>
+                <power>26</power>
+                <armorPenetration>0.7</armorPenetration>
+                <cooldownTime>2.4</cooldownTime>
+            </li>
+        </tools>
+    </ThingDef>
+
+
+    <ThingDef ParentName="MPW_Bladelink_Base">
+        <defName>MPW_Bladelink_Beer</defName>
+        <label>persona beer bottle</label>
+        <description>The first beverage besides water ever consumed by mankind. Beer can taste good, but its main effect is intoxication. Excessive consumption can lead to alcohol blackouts and, over time, addiction.</description>
+        <graphicData>
+            <texPath>Things/Item/Drug/Beer/Beer_a</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <techLevel>Neolithic</techLevel>
+        <weaponTags>
+            <li>MeleeBlunt</li>
+        </weaponTags>
+        <weaponClasses>
+            <li>Neolithic</li>
+        </weaponClasses>
+        <tools>
+            <li>
+                <label>bottle</label>
+                <capacities>
+                    <li>Blunt</li>
+                </capacities>
+                <power>9</power>
+                <cooldownTime>2</cooldownTime>
+            </li>
+            <li>
+                <label>neck</label>
+                <capacities>
+                    <li>Poke</li>
+                </capacities>
+                <power>12</power>
+                <cooldownTime>1.6</cooldownTime>
+            </li>
+        </tools>
+    </ThingDef>
+
+    <ThingDef ParentName="MPW_Bladelink_Base">
+        <defName>MPW_Bladelink_Log</defName>
+        <label>persona log</label>
+        <description>When prompted, this log exclaims 'I am a stick!', even when it could be fire.</description>
+        <graphicData>
+            <texPath>Things/Item/Resource/WoodLog/WoodLog_a</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <equippedAngleOffset>-20</equippedAngleOffset>
+        <soundInteract>Wood_Drop</soundInteract>
+        <soundDrop>Wood_Drop</soundDrop>
+        <weaponTags>
+            <li>MeleeBlunt</li>
+        </weaponTags>
+        <weaponClasses>
+            <li>Neolithic</li>
+        </weaponClasses>
+        <tools>
+            <li>
+                <label>log</label>
+                <capacities>
+                    <li>Blunt</li>
+                </capacities>
+                <power>12</power>
+                <cooldownTime>1.6</cooldownTime>
+            </li>
+        </tools>
+    </ThingDef>
+
+    <ThingDef ParentName="MPW_Bladelink_Base">
+        <defName>MPW_Bladelink_Club</defName>
+        <label>persona club</label>
+        <description>A shaped stick, heavy at one end, for bashing enemies to death. This weapon is so old it's part of human biology. Evolutionary biologists say that a major reason humans can tilt our wrists side-to-side (instead of just forward-and-back like other primates) is to be able to better swing a club.</description>
+        <graphicData>
+            <texPath>Things/Item/Equipment/WeaponMelee/Club</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <uiIconScale>1.1</uiIconScale>
+        <equippedAngleOffset>-65</equippedAngleOffset>
+        <techLevel>Neolithic</techLevel>
+        <weaponTags>
+            <li>MeleeBlunt</li>
+            <li>NeolithicMeleeBasic</li>
+        </weaponTags>
+        <stuffCategories>
+            <li>Metallic</li>
+        </stuffCategories>
+        <weaponClasses>
+            <li>Neolithic</li>
+        </weaponClasses>
+        <tools>
+            <li>
+                <label>handle</label>
+                <capacities>
+                    <li>Poke</li>
+                </capacities>
+                <power>9</power>
+                <cooldownTime>2</cooldownTime>
+            </li>
+            <li>
+                <label>head</label>
+                <labelUsedInLogging>false</labelUsedInLogging>
+                <capacities>
+                    <li>Blunt</li>
                 </capacities>
                 <power>16</power>
                 <cooldownTime>1.6</cooldownTime>
@@ -186,47 +343,95 @@
     </ThingDef>
 
     <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
-        <defName>MPW_Bladelink_Spear</defName>
-        <label>persona spear</label>
-        <description>A polearm tipped with a sharp point for stabbing opponents.\nThis weapon has an onboard persona that can bond to only a single person. The wielder and intelligent weapon can synchronize their reflexes and attack with frightening speed, accuracy, and creativity. Once bonded to a wielder, the weapon's persona will refuse to be wielded by anyone else.</description>
+        <defName>MPW_Bladelink_Ikwa</defName>
+        <label>persona ikwa</label>
+        <description>A short spearhandle attached to a long bladed point, designed to be driven into vital organs with a quick thrust.</description>
         <graphicData>
-            <texPath>Things/Item/Equipment/WeaponMelee/Spear</texPath>
+            <texPath>Things/Item/Equipment/WeaponMelee/Ikwa</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
-        <weaponTags>
-            <li>NeolithicMeleeAdvanced</li>
-            <li>MedievalMeleeAdvanced</li>
-            <li>Spear</li>
-        </weaponTags>
-        <thingSetMakerTags><li>RewardStandardQualitySuper</li></thingSetMakerTags>
-        <statBases>
-            <Mass>2</Mass>
-        </statBases>
+        <uiIconScale>1.25</uiIconScale>
         <equippedAngleOffset>-25</equippedAngleOffset>
+        <techLevel>Neolithic</techLevel>
+        <weaponTags>
+            <li>MeleePiercer</li>
+            <li>NeolithicMeleeDecent</li>
+        </weaponTags>
+        <stuffCategories>
+            <li>Metallic</li>
+        </stuffCategories>
+        <weaponClasses>
+            <li>Neolithic</li>
+        </weaponClasses>
         <tools>
             <li>
-                <label>shaft</label>
+                <label>handle</label>
                 <capacities>
                     <li>Blunt</li>
                     <li>Poke</li>
                 </capacities>
-                <power>16</power>
+                <power>9</power>
                 <cooldownTime>2</cooldownTime>
             </li>
             <li>
-                <label>point</label>
+                <label>head</label>
                 <capacities>
                     <li>Stab</li>
                 </capacities>
-                <power>28</power>
-                <armorPenetration>0.7</armorPenetration>
+                <power>15</power>
+                <cooldownTime>2</cooldownTime>
+            </li>
+            <li>
+                <label>edge</label>
+                <capacities>
+                    <li>Cut</li>
+                </capacities>
+                <power>15</power>
                 <cooldownTime>2</cooldownTime>
             </li>
         </tools>
     </ThingDef>
-    
-<!--    TODO: persona beer bottle-->
-<!--    TODO: persona log-->
+
+    <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
+        <defName>MeleeWeapon_BreachAxe</defName>
+        <label>breach axe</label>
+        <description>A combined blade and tool-head attached to a sturdy haft. While slightly less effective than other weapons against human enemies, it excels at tearing down walls, doors, and other structures thanks to its integrated tool-head.</description>
+        <graphicData>
+            <texPath>Things/Item/Equipment/WeaponMelee/BreachAxe</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <equippedAngleOffset>-65</equippedAngleOffset>
+        <techLevel>Neolithic</techLevel>
+        <weaponTags>
+            <li>MeleePiercer</li>
+            <li>NeolithicMeleeDestructive</li>
+        </weaponTags>
+        <stuffCategories>
+            <li>Metallic</li>
+        </stuffCategories>
+        <weaponClasses>
+            <li>Neolithic</li>
+        </weaponClasses>
+        <tools>
+            <li>
+                <label>handle</label>
+                <capacities>
+                    <li>Blunt</li>
+                    <li>Poke</li>
+                </capacities>
+                <power>11</power>
+                <cooldownTime>1.6</cooldownTime>
+            </li>
+            <li>
+                <label>head</label>
+                <capacities>
+                    <li>Demolish</li>
+                </capacities>
+                <power>8.5</power>
+                <cooldownTime>0.9</cooldownTime>
+            </li>
+        </tools>
+    </ThingDef>
     
 <!--    may require royalty-->
 <!--    TODO: persona eltex staff-->
