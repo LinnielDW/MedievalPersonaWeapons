@@ -12,9 +12,6 @@
             <MarketValue>800</MarketValue>
             <Mass>1.25</Mass>
         </statBases>
-        <graphicData>
-            <color>(255,200,200)</color>
-        </graphicData>
         <tradeTags>
             <li>LowtechBladelink</li>
         </tradeTags>
