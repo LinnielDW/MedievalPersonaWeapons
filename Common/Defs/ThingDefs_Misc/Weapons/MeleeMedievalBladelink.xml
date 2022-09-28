@@ -5,11 +5,19 @@
         <weaponClasses Inherit="False">
             <li>Melee</li>
         </weaponClasses>
-        <thingSetMakerTags><li>RewardStandardQualitySuper</li></thingSetMakerTags>
+        <thingSetMakerTags>
+            <li>RewardStandardMidFreq</li>
+        </thingSetMakerTags>
         <statBases>
             <MarketValue>800</MarketValue>
             <Mass>1.25</Mass>
         </statBases>
+        <graphicData>
+            <color>(255,200,200)</color>
+        </graphicData>
+        <tradeTags>
+            <li>LowtechBladelink</li>
+        </tradeTags>
     </ThingDef>
     
     <ThingDef ParentName="MPW_Bladelink_Base">
@@ -342,7 +350,7 @@
         </tools>
     </ThingDef>
 
-    <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
+    <ThingDef ParentName="MPW_Bladelink_Base">
         <defName>MPW_Bladelink_Ikwa</defName>
         <label>persona ikwa</label>
         <description>A short spearhandle attached to a long bladed point, designed to be driven into vital organs with a quick thrust.</description>
@@ -392,8 +400,8 @@
         </tools>
     </ThingDef>
 
-    <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
-        <defName>MeleeWeapon_BreachAxe</defName>
+    <ThingDef ParentName="MPW_Bladelink_Base">
+        <defName>MPW_Bladelink_BreachAxe</defName>
         <label>breach axe</label>
         <description>A combined blade and tool-head attached to a sturdy haft. While slightly less effective than other weapons against human enemies, it excels at tearing down walls, doors, and other structures thanks to its integrated tool-head.</description>
         <graphicData>
