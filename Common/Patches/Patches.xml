@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+    <Operation Class="PatchOperationAdd">
+        <xpath>*/TraderKindDef[defName = "Caravan_Neolithic_ShamanMerchant"]/stockGenerators</xpath>
+        <value>
+            <li Class="StockGenerator_Tag">
+                <tradeTag>LowtechBladelink</tradeTag>
+                <countRange>0~2</countRange>
+            </li>
+        </value>
+    </Operation>
+</Patch>
