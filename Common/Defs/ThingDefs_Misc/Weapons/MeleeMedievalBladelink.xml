@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Defs>
     <ThingDef Name="MPW_Bladelink_Base" ParentName="BaseWeapon_Bladelink" Abstract="True">
         <techLevel>Medieval</techLevel>
@@ -437,9 +437,79 @@
             </li>
         </tools>
     </ThingDef>
+    <ThingDef ParentName="MPW_Bladelink_Base">
+        <defName>MPW_Bladelink_Axe</defName>
+        <label>persona axe</label>
+        <description>An advanced form of one of mankind's oldest weapons, the war axe is a short blade attached to a shaft. The simple, ancient design concentrates cutting power generated from strong overhand swings.\nThis weapon has an onboard persona that can bond to only a single person. The wielder and intelligent weapon can synchronize their reflexes and attack with frightening speed, accuracy, and creativity. Once bonded to a wielder, the weapon's persona will refuse to be wielded by anyone else.</description>
+        <graphicData>
+            <texPath>Things/Item/Equipment/WeaponMelee/Axe</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <equippedAngleOffset>-65</equippedAngleOffset>
+        <techLevel>Medieval</techLevel>
+        <weaponTags>
+            <li>MeleePiercer</li>
+            <li>MedievalMeleeDecent</li>
+            <li>Axe</li>
+        </weaponTags>
+        <stuffCategories>
+            <li>Metallic</li>
+        </stuffCategories>
+        <tools>
+            <li>
+                <label>handle</label>
+                <capacities>
+                    <li>Poke</li>
+                </capacities>
+                <power>9</power>
+                <cooldownTime>2</cooldownTime>
+            </li>
+            <li>
+                <label>edge</label>
+                <capacities>
+                    <li>Cut</li>
+                </capacities>
+                <power>17</power>
+                <cooldownTime>1.6</cooldownTime>
+            </li>
+        </tools>
+    </ThingDef>
     
-<!--    may require royalty-->
-<!--    TODO: persona eltex staff-->
-<!--    TODO: axe-->
-<!--    TODO: warhammer-->
+    <ThingDef ParentName="MPW_Bladelink_Base">
+        <defName>MPW_Bladelink_Warhammer</defName>
+        <label>persona warhammer</label>
+        <description>A long polearm topped with a brutal hammer. The powerful blunt impacts can pulverize an enemy's insides, even through armor.\nThis weapon has an onboard persona that can bond to only a single person. The wielder and intelligent weapon can synchronize their reflexes and attack with frightening speed, accuracy, and creativity. Once bonded to a wielder, the weapon's persona will refuse to be wielded by anyone else.</description>
+        <techLevel>Medieval</techLevel>
+        <stuffCategories>
+            <li>Metallic</li>
+        </stuffCategories>
+        <weaponTags>
+            <li>MeleePiercer</li>
+            <li>MedievalMeleeDecent</li>
+        </weaponTags>
+        <tools>
+            <li>
+                <label>handle</label>
+                <capacities>
+                    <li>Poke</li>
+                </capacities>
+                <power>13</power>
+                <cooldownTime>2.3</cooldownTime>
+            </li>
+            <li>
+                <label>head</label>
+                <labelUsedInLogging>false</labelUsedInLogging>
+                <capacities>
+                    <li>Blunt</li>
+                </capacities>
+                <power>23</power>
+                <cooldownTime>2.3</cooldownTime>
+            </li>
+        </tools>
+        <equippedAngleOffset>-65</equippedAngleOffset>
+        <graphicData>
+            <texPath>Things/Item/Equipment/WeaponMelee/Warhammer</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+    </ThingDef>
 </Defs>
