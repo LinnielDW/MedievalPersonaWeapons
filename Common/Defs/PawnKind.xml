@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+    <PawnKindDef ParentName="TribalBase">
+        <defName>MPW_Tribal_Bladesinger</defName>
+        <label>bladesinger</label>
+        <combatPower>75</combatPower>
+        <canBeSapper>true</canBeSapper>
+        <apparelMoney>300~750</apparelMoney>
+        <apparelRequired>
+            <li>Apparel_WarMask</li>
+        </apparelRequired>
+        <weaponMoney>500~1500</weaponMoney>
+        <weaponTags>
+            <li>NeolithicMeleeDecent</li>
+            <li>NeolithicMeleeAdvanced</li>
+        </weaponTags>
+        <initialWillRange>2~4</initialWillRange>
+        <initialResistanceRange>15~25</initialResistanceRange>
+    </PawnKindDef>
+</Defs>
