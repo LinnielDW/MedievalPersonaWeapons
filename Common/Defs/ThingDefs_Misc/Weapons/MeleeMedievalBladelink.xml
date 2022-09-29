@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
     <ThingDef Name="MPW_Bladelink_Base" ParentName="BaseWeapon_Bladelink" Abstract="True">
         <techLevel>Medieval</techLevel>
@@ -244,7 +244,7 @@
     <ThingDef ParentName="MPW_Bladelink_Base">
         <defName>MPW_Bladelink_Beer</defName>
         <label>persona beer bottle</label>
-        <description>The first beverage besides water ever consumed by mankind. Beer can taste good, but its main effect is intoxication. Excessive consumption can lead to alcohol blackouts and, over time, addiction.</description>
+        <description>After the 5th bottle, this one started talking, seems special.\nThis weapon has an onboard persona that can bond to only a single person. The wielder and intelligent weapon can synchronize their reflexes and attack with frightening speed, accuracy, and creativity. Once bonded to a wielder, the weapon's persona will refuse to be wielded by anyone else.</description>
         <graphicData>
             <texPath>Things/Item/Drug/Beer/Beer_a</texPath>
             <graphicClass>Graphic_Single</graphicClass>
@@ -279,7 +279,7 @@
     <ThingDef ParentName="MPW_Bladelink_Base">
         <defName>MPW_Bladelink_Log</defName>
         <label>persona log</label>
-        <description>When prompted, this log exclaims 'I am a stick!', even when it could be fire.</description>
+        <description>When prompted, this log exclaims 'I am a stick!', even when it could be fire.\nThis weapon has an onboard persona that can bond to only a single person. The wielder and intelligent weapon can synchronize their reflexes and attack with frightening speed, accuracy, and creativity. Once bonded to a wielder, the weapon's persona will refuse to be wielded by anyone else.</description>
         <graphicData>
             <texPath>Things/Item/Resource/WoodLog/WoodLog_a</texPath>
             <graphicClass>Graphic_Single</graphicClass>
@@ -308,7 +308,7 @@
     <ThingDef ParentName="MPW_Bladelink_Base">
         <defName>MPW_Bladelink_Club</defName>
         <label>persona club</label>
-        <description>A shaped stick, heavy at one end, for bashing enemies to death. This weapon is so old it's part of human biology. Evolutionary biologists say that a major reason humans can tilt our wrists side-to-side (instead of just forward-and-back like other primates) is to be able to better swing a club.</description>
+        <description>A shaped stick, heavy at one end, for bashing enemies to death. This weapon is so old it's part of human biology. Evolutionary biologists say that a major reason humans can tilt our wrists side-to-side (instead of just forward-and-back like other primates) is to be able to better swing a club.\nThis weapon has an onboard persona that can bond to only a single person. The wielder and intelligent weapon can synchronize their reflexes and attack with frightening speed, accuracy, and creativity. Once bonded to a wielder, the weapon's persona will refuse to be wielded by anyone else.</description>
         <graphicData>
             <texPath>Things/Item/Equipment/WeaponMelee/Club</texPath>
             <graphicClass>Graphic_Single</graphicClass>
@@ -350,7 +350,7 @@
     <ThingDef ParentName="MPW_Bladelink_Base">
         <defName>MPW_Bladelink_Ikwa</defName>
         <label>persona ikwa</label>
-        <description>A short spearhandle attached to a long bladed point, designed to be driven into vital organs with a quick thrust.</description>
+        <description>A short spearhandle attached to a long bladed point, designed to be driven into vital organs with a quick thrust.\nThis weapon has an onboard persona that can bond to only a single person. The wielder and intelligent weapon can synchronize their reflexes and attack with frightening speed, accuracy, and creativity. Once bonded to a wielder, the weapon's persona will refuse to be wielded by anyone else.</description>
         <graphicData>
             <texPath>Things/Item/Equipment/WeaponMelee/Ikwa</texPath>
             <graphicClass>Graphic_Single</graphicClass>
@@ -400,7 +400,7 @@
     <ThingDef ParentName="MPW_Bladelink_Base">
         <defName>MPW_Bladelink_BreachAxe</defName>
         <label>breach axe</label>
-        <description>A combined blade and tool-head attached to a sturdy haft. While slightly less effective than other weapons against human enemies, it excels at tearing down walls, doors, and other structures thanks to its integrated tool-head.</description>
+        <description>A combined blade and tool-head attached to a sturdy haft. While slightly less effective than other weapons against human enemies, it excels at tearing down walls, doors, and other structures thanks to its integrated tool-head.\nThis weapon has an onboard persona that can bond to only a single person. The wielder and intelligent weapon can synchronize their reflexes and attack with frightening speed, accuracy, and creativity. Once bonded to a wielder, the weapon's persona will refuse to be wielded by anyone else.</description>
         <graphicData>
             <texPath>Things/Item/Equipment/WeaponMelee/BreachAxe</texPath>
             <graphicClass>Graphic_Single</graphicClass>
