@@ -399,7 +399,7 @@
 
     <ThingDef ParentName="MPW_Bladelink_Base">
         <defName>MPW_Bladelink_BreachAxe</defName>
-        <label>breach axe</label>
+        <label>persona breach axe</label>
         <description>A combined blade and tool-head attached to a sturdy haft. While slightly less effective than other weapons against human enemies, it excels at tearing down walls, doors, and other structures thanks to its integrated tool-head.\nThis weapon has an onboard persona that can bond to only a single person. The wielder and intelligent weapon can synchronize their reflexes and attack with frightening speed, accuracy, and creativity. Once bonded to a wielder, the weapon's persona will refuse to be wielded by anyone else.</description>
         <graphicData>
             <texPath>Things/Item/Equipment/WeaponMelee/BreachAxe</texPath>
