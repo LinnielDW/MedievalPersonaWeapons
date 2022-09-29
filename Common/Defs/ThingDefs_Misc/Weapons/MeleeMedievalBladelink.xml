@@ -9,7 +9,7 @@
             <li>RewardStandardMidFreq</li>
         </thingSetMakerTags>
         <statBases>
-            <MarketValue>800</MarketValue>
+            <MarketValue>500</MarketValue>
             <Mass>1.25</Mass>
         </statBases>
         <tradeTags>
