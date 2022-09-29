@@ -11,14 +11,14 @@
     </Operation>
 
     <Operation Class="PatchOperationAdd">
-        <xpath>*/FactionDef[defName="TribeBase"]/pawnGroupMakers/*/options</xpath>
+        <xpath>*/FactionDef[@Name="TribeBase"]/pawnGroupMakers/*/options</xpath>
         <value>
             <MPW_Tribal_Bladesinger>4</MPW_Tribal_Bladesinger>
         </value>
     </Operation>
 
     <Operation Class="PatchOperationAdd">
-        <xpath>*/FactionDef[defName="TribeBase"]/pawnGroupMakers/*/guards</xpath>
+        <xpath>*/FactionDef[@Name="TribeBase"]/pawnGroupMakers/*/guards</xpath>
         <value>
             <MPW_Tribal_Bladesinger>2</MPW_Tribal_Bladesinger>
         </value>
