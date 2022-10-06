@@ -249,6 +249,7 @@
             <texPath>Things/Item/Drug/Beer/Beer_a</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
+        <smeltable>false</smeltable>
         <techLevel>Neolithic</techLevel>
         <weaponTags>
             <li>MeleeBlunt</li>
@@ -284,6 +285,7 @@
             <texPath>Things/Item/Resource/WoodLog/WoodLog_a</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
+        <smeltable>false</smeltable>
         <equippedAngleOffset>-20</equippedAngleOffset>
         <soundInteract>Wood_Drop</soundInteract>
         <soundDrop>Wood_Drop</soundDrop>

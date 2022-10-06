@@ -53,6 +53,6 @@
     <Target Name="CopyCustomContent" AfterTargets="AfterBuild">
         <Copy SourceFiles="@(CommonFiles)" DestinationFolder="$(ModLocation)\%(RecursiveDir)" SkipUnchangedFiles="true" />
         <Copy SourceFiles="@(AboutFiles)" DestinationFolder="$(ModLocation)\About\%(RecursiveDir)" SkipUnchangedFiles="true" />
-        <Copy SourceFiles="..\LoadFolders.xml" DestinationFolder="$(ModLocation)" SkipUnchangedFiles="true" />
+<!--        <Copy SourceFiles="..\LoadFolders.xml" DestinationFolder="$(ModLocation)" SkipUnchangedFiles="true" />-->
     </Target>
 </Project>
