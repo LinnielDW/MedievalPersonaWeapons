@@ -8,8 +8,9 @@
         <thingSetMakerTags>
             <li>RewardStandardMidFreq</li>
         </thingSetMakerTags>
+        <costStuffCount>100</costStuffCount>
         <statBases>
-            <MarketValue>1250</MarketValue>
+            <WorkToMake>150000</WorkToMake>
             <Mass>1.25</Mass>
         </statBases>
         <tradeTags>
@@ -115,6 +116,7 @@
         </graphicData>
         <equippedAngleOffset>-65</equippedAngleOffset>
         <techLevel>Medieval</techLevel>
+        <costStuffCount>175</costStuffCount>
         <stuffCategories>
             <li>Metallic</li>
         </stuffCategories>
@@ -166,6 +168,7 @@
             <li>MedievalMeleeBasic</li>
             <li>NeolithicMeleeBasic</li>
         </weaponTags>
+        <costStuffCount>50</costStuffCount>
         <stuffCategories>
             <li>Metallic</li>
         </stuffCategories>
@@ -215,6 +218,7 @@
             <li>MedievalMeleeAdvanced</li>
             <li>Spear</li>
         </weaponTags>
+        <costStuffCount>175</costStuffCount>
         <stuffCategories>
             <li>Metallic</li>
         </stuffCategories>
@@ -501,6 +505,7 @@
         <label>persona warhammer</label>
         <description>A long polearm topped with a brutal hammer. The powerful blunt impacts can pulverize an enemy's insides, even through armor.\nThis weapon has an onboard persona that can bond to only a single person. The wielder and intelligent weapon can synchronize their reflexes and attack with frightening speed, accuracy, and creativity. Once bonded to a wielder, the weapon's persona will refuse to be wielded by anyone else.</description>
         <techLevel>Medieval</techLevel>
+        <costStuffCount>175</costStuffCount>
         <stuffCategories>
             <li>Metallic</li>
         </stuffCategories>
