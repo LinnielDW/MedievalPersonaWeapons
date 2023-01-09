@@ -23,6 +23,7 @@
         <Optimize>false</Optimize>
         <OutputPath>bin\Debug\</OutputPath>
         <DefineConstants>DEBUG;TRACE</DefineConstants>
+        <ModLocation>D:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\MedievalPersonaWeapons</ModLocation>
         <ErrorReport>prompt</ErrorReport>
         <WarningLevel>4</WarningLevel>
     </PropertyGroup>
@@ -38,8 +39,12 @@
     </PropertyGroup>
     
     <ItemGroup>
-        <CommonFiles Include="..\Common\**" />
-        <AboutFiles Include="..\About\**" />
+        <CommonFiles Include="..\Common\**">
+            <Link>Common\%(RecursiveDir)%(Filename)%(Extension)</Link>
+        </CommonFiles>
+        <AboutFiles Include="..\About\**">
+            <Link>About\%(RecursiveDir)%(Filename)%(Extension)</Link>
+        </AboutFiles>
     </ItemGroup>
     <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
     <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
