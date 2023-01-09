@@ -9,12 +9,15 @@
             <li>RewardStandardMidFreq</li>
         </thingSetMakerTags>
         <statBases>
-            <MarketValue>500</MarketValue>
+            <MarketValue>1250</MarketValue>
             <Mass>1.25</Mass>
         </statBases>
         <tradeTags>
             <li>LowtechBladelink</li>
         </tradeTags>
+        <weaponTags>
+            <li>LowtechBladelink</li>
+        </weaponTags>
     </ThingDef>
     
     <ThingDef ParentName="MPW_Bladelink_Base">
@@ -249,10 +252,18 @@
             <texPath>Things/Item/Drug/Beer/Beer_a</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
+        <statBases>
+            <MarketValue>1000</MarketValue>
+        </statBases>
+        <thingSetMakerTags Inherit="False">
+            <li>RewardStandardQualitySuper</li>
+            <li>WeaponBladelink</li>
+        </thingSetMakerTags>
         <smeltable>false</smeltable>
         <techLevel>Neolithic</techLevel>
-        <weaponTags>
+        <weaponTags Inherit="False">
             <li>MeleeBlunt</li>
+            <li>LowtechBladelinkMeme</li>
         </weaponTags>
         <weaponClasses>
             <li>Neolithic</li>
@@ -285,12 +296,20 @@
             <texPath>Things/Item/Resource/WoodLog/WoodLog_a</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
+        <statBases>
+            <MarketValue>1000</MarketValue>
+        </statBases>
+        <thingSetMakerTags Inherit="False">
+            <li>RewardStandardQualitySuper</li>
+            <li>WeaponBladelink</li>
+        </thingSetMakerTags>
         <smeltable>false</smeltable>
         <equippedAngleOffset>-20</equippedAngleOffset>
         <soundInteract>Wood_Drop</soundInteract>
         <soundDrop>Wood_Drop</soundDrop>
-        <weaponTags>
+        <weaponTags Inherit="False">
             <li>MeleeBlunt</li>
+            <li>LowtechBladelinkMeme</li>
         </weaponTags>
         <weaponClasses>
             <li>Neolithic</li>

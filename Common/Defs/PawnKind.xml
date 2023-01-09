@@ -9,10 +9,11 @@
         <apparelRequired>
             <li>Apparel_WarMask</li>
         </apparelRequired>
-        <weaponMoney>500~1500</weaponMoney>
+        <weaponMoney>2000~4500</weaponMoney>
         <weaponTags>
             <li>NeolithicMeleeDecent</li>
             <li>NeolithicMeleeAdvanced</li>
+            <li>LowtechBladelink</li>
         </weaponTags>
         <initialWillRange>2~4</initialWillRange>
         <initialResistanceRange>15~25</initialResistanceRange>
