@@ -8,7 +8,6 @@
         <thingSetMakerTags>
             <li>RewardStandardMidFreq</li>
         </thingSetMakerTags>
-        <costStuffCount>100</costStuffCount>
         <statBases>
             <WorkToMake>150000</WorkToMake>
             <Mass>1.25</Mass>
@@ -32,6 +31,7 @@
         <uiIconScale>1.2</uiIconScale>
         <equippedAngleOffset>-65</equippedAngleOffset>
         <techLevel>Medieval</techLevel>
+        <costStuffCount>100</costStuffCount>
         <stuffCategories>
             <li>Metallic</li>
         </stuffCategories>
@@ -71,6 +71,7 @@
         <uiIconScale>1.2</uiIconScale>
         <equippedAngleOffset>-65</equippedAngleOffset>
         <techLevel>Medieval</techLevel>
+        <costStuffCount>100</costStuffCount>
         <stuffCategories>
             <li>Metallic</li>
         </stuffCategories>
@@ -345,6 +346,7 @@
             <li>MeleeBlunt</li>
             <li>NeolithicMeleeBasic</li>
         </weaponTags>
+        <costStuffCount>100</costStuffCount>
         <stuffCategories>
             <li>Metallic</li>
         </stuffCategories>
@@ -387,6 +389,7 @@
             <li>MeleePiercer</li>
             <li>NeolithicMeleeDecent</li>
         </weaponTags>
+        <costStuffCount>100</costStuffCount>
         <stuffCategories>
             <li>Metallic</li>
         </stuffCategories>
@@ -436,6 +439,7 @@
             <li>MeleePiercer</li>
             <li>NeolithicMeleeDestructive</li>
         </weaponTags>
+        <costStuffCount>100</costStuffCount>
         <stuffCategories>
             <li>Metallic</li>
         </stuffCategories>
@@ -477,6 +481,7 @@
             <li>MedievalMeleeDecent</li>
             <li>Axe</li>
         </weaponTags>
+        <costStuffCount>100</costStuffCount>
         <stuffCategories>
             <li>Metallic</li>
         </stuffCategories>
